@@ -9,3 +9,5 @@
 ## 5. Create methods to dispatch actions in a component
 
 ## 6. Load books from the store in a component
+
+## 7. Use AppState for type safety
