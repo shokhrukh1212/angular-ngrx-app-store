@@ -4,10 +4,11 @@ import { Book } from '../models/book';
 import { AddBook, RemoveBook } from '../books/book.actions';
 import { Observable } from 'rxjs';
 import { AppState } from '../app.state';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-book-list',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './book-list.component.html',
   styleUrl: './book-list.component.css',
 })

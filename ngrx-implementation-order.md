@@ -11,3 +11,5 @@
 ## 6. Load books from the store in a component
 
 ## 7. Use AppState for type safety
+
+## 8. Create a UI to create and show books

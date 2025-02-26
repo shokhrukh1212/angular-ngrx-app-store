@@ -1,1 +1,16 @@
-<p>book-list works!</p>
+<h1>Book List</h1>
+<div *ngFor="let book of books$ | async">
+  <h2>{{ book.title }}</h2>
+  <h3>{{ book.author }}</h3>
+  <button (click)="removeBook(book.id)">Remove</button>
+</div>
+
+<h2>Create a new book</h2>
+<div>
+  <input #id type="text" placeholder="Book id" />
+  <input #title type="text" placeholder="Book title" />
+  <input #author type="text" placeholder="Author" />
+  <button (click)="addBook(id.value, title.value, author.value)">
+    Add Book
+  </button>
+</div>
