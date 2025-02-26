@@ -7,3 +7,5 @@
 ## 4. Create the store in the application root
 
 ## 5. Create methods to dispatch actions in a component
+
+## 6. Load books from the store in a component
