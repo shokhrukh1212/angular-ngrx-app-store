@@ -3,3 +3,5 @@
 ## 2. Create actions (adding/deleting books)
 
 ## 3. Create a book reducer
+
+## 4. Create the store in the application root
