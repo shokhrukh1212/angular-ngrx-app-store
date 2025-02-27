@@ -13,3 +13,5 @@
 ## 7. Use AppState for type safety
 
 ## 8. Create a UI to create and show books
+
+## 9. Create success/failure actions and adjust reducers
