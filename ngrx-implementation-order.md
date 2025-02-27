@@ -17,3 +17,5 @@
 ## 9. Create success/failure actions and adjust reducers
 
 ## 10. Create the service for the effect
+
+## 11. Create and Register effects
